@@ -10,7 +10,7 @@ import Foundation
 class NKODICE {
     
     func main(){
-        
+    
         var Point = 0
         let Dice_eyes = ["お", "ち", "ん", "こ", "ま", "う"]
         let one_dice = Dice_eyes.randomElement()!
