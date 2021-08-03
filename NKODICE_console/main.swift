@@ -167,25 +167,25 @@ class NKODICE {
 
         let Mix_dice = [one_dice, two_dice, three_dice, four_dice, five_dice, six_dice]
         
-        print("Dice: \(Mix_dice)")
-        print("Score: \(Point) pt")
+        print("\n🎲 Dice: \(Mix_dice)")
+        print("🎉 Score: \(Point) pt !!\n")
         
         return start()
         
     }
     
     func start() {
-        print("NKODICE (Start: s) (Exit: e)")
+        print("(🚩Let's go!: s) (🚪Exit: e)")
         
         let select = readLine()!
         switch select {
         case "s":
             main()
         case "e":
-            print("Exit programs...")
+            print("🚪Exit programs...")
             exit(0)
         default:
-            print(">> (Start: s) (Exit: e) <<")
+            print(">> (🚩Let's go!: s) (🚪Exit: e) <<")
             return start()
         }
     }
