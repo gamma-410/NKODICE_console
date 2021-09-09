@@ -1,2 +1,2 @@
 # NKODICE_console
-NKODICEをconsoleで再現 
+Reproduce NKODICE with console
