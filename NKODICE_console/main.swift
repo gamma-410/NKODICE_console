@@ -194,3 +194,5 @@ class NKODICE {
 
 let NKODICE_console = NKODICE()
 NKODICE_console.start()
+
+//endCode...
